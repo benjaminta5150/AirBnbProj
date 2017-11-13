@@ -1,3 +1,4 @@
+/* Containers for user inputs and JSONs */
 var arr = [];
 var vals = [];
 
