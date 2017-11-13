@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+library(dplyr)
+
+listings4 <- read.csv("listings4.csv", na.strings=c("", "NA"))
+listings4 <- listings4[!(is.na(listings4$review_scores_value) | listings4$review_scores_value==""), ]
+
+```
+
+```{r}
+
+listings4$review_scores_value <- as.numeric(listings4$review_scores_value)
+
+avgReview <- summarise(group_by(listings4, neighbourhood_cleansed), avg_review = mean(review_scores_value))
+
+write.csv(avgReview, "ratingsVneighbourhood.csv")
+
+```
+
