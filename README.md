@@ -16,6 +16,5 @@ I created several spreadsheets that were subsets of this data that proved useful
 
 My algorithm for price estimation was fairly simple. I prompted the user for a geolocation and using my geolocation spreadsheet, determine the nearest neighborhood. Then, I would look up this neighbourhood in my weekly price spreadsheet.
 
-My algorithm for bookings optimization was similar. It is essentially the average price of the closest neighborhood.
-
 I came into this project with no experience in HTML/JavaScript/R. Coming out of the project, I definitely learned a lot and am incredibly thankful for this opportunity.
+
