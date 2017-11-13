@@ -14,5 +14,5 @@ I created several spreadsheets that were subsets of this data that proved useful
 
 	4. Daily Price/Weekly Price - These spreadsheets contained the daily and weekly averages of listings in each particular neighbourhood.
 
-I came into this project with no experience in HTML/JavaScript/R. Coming out of the project, I definitely learned a lot and am incredibly thankful for this opportunity.
+I came into this project with no experience in web development or data analysis. Coming out of the project, I definitely learned a lot and am incredibly thankful for this opportunity.
 
