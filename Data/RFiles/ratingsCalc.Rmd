@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+
+listings4 <- read.csv("listings4.csv")
+
+```
+
+
+```{r}
+listings4$price <- as.numeric(listings4$price)
+
+
+ratingsVprice <- summarise(group_by(listings4, review_scores_value), avg_price = mean(price))
+
+write.csv(ratingsVprice, "ratingsVprice.csv")
+
+```
+
+
+

@@ -1,0 +1,15 @@
+---
+title: "ben"
+author: "alsoben"
+date: "November 12, 2017"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+
+means <- summarise(group_by(listings3, neighbourhood_cleansed), avg_latitude = mean(latitude), avg_longitutde = mean(longitude))
+
+write.csv(means, "AirBnb-Optimization/airbnb-sep-2017/latandlong.csv")                       
+```
+
