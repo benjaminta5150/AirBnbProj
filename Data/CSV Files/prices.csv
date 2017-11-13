@@ -1,38 +1,38 @@
-"","neighbourhood_cleansed","avg_price"
-"1","Bayview",125.703389830508
-"2","Bernal Heights",201.075388026608
-"3","Castro/Upper Market",249.51875
-"4","Chinatown",277.407894736842
-"5","Crocker Amazon",115.142857142857
-"6","Diamond Heights",199.590909090909
-"7","Downtown/Civic Center",210.152482269504
-"8","Excelsior",144.091503267974
-"9","Financial District",271.478571428571
-"10","Glen Park",231.829268292683
-"11","Golden Gate Park",235.875
-"12","Haight Ashbury",235.553140096618
-"13","Inner Richmond",230.292682926829
-"14","Inner Sunset",255.047058823529
-"15","Lakeshore",164.942307692308
-"16","Marina",320.950980392157
-"17","Mission",212.025096525097
-"18","Nob Hill",239.506211180124
-"19","Noe Valley",270.633333333333
-"20","North Beach",321.755555555556
-"21","Ocean View",147.693693693694
-"22","Outer Mission",182.689024390244
-"23","Outer Richmond",203.553846153846
-"24","Outer Sunset",164.51968503937
-"25","Pacific Heights",331.098765432099
-"26","Parkside",229.98347107438
-"27","Potrero Hill",326.08041958042
-"28","Presidio",570.666666666667
-"29","Presidio Heights",539.846153846154
-"30","Russian Hill",363.566964285714
-"31","Seacliff",287
-"32","South of Market",350.017799352751
-"33","Treasure Island/YBI",91.72
-"34","Twin Peaks",212.089108910891
-"35","Visitacion Valley",134.078947368421
-"36","West of Twin Peaks",204.975609756098
-"37","Western Addition",278.351732991014
+neighbourhood_cleansed,avg_price
+Bayview,125.7033898
+Bernal Heights,201.075388
+Castro/Upper Market,249.51875
+Chinatown,277.4078947
+Crocker Amazon,115.1428571
+Diamond Heights,199.5909091
+Downtown/Civic Center,210.1524823
+Excelsior,144.0915033
+Financial District,271.4785714
+Glen Park,231.8292683
+Golden Gate Park,235.875
+Haight Ashbury,235.5531401
+Inner Richmond,230.2926829
+Inner Sunset,255.0470588
+Lakeshore,164.9423077
+Marina,320.9509804
+Mission,212.0250965
+Nob Hill,239.5062112
+Noe Valley,270.6333333
+North Beach,321.7555556
+Ocean View,147.6936937
+Outer Mission,182.6890244
+Outer Richmond,203.5538462
+Outer Sunset,164.519685
+Pacific Heights,331.0987654
+Parkside,229.9834711
+Potrero Hill,326.0804196
+Presidio,570.6666667
+Presidio Heights,539.8461538
+Russian Hill,363.5669643
+Seacliff,287
+South of Market,350.0177994
+Treasure Island/YBI,91.72
+Twin Peaks,212.0891089
+Visitacion Valley,134.0789474
+West of Twin Peaks,204.9756098
+Western Addition,278.351733
