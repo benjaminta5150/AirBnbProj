@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
-
 <body>
-<div style="width:250px; margin:0 auto;">
-<h2>AirBnb Optimization</h2>
-</div>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<div style="width:250px; margin:0 auto;">
+		<h2>AirBnb Optimization</h2>
+	</div>
+</head>
+
 <div style="width:125px; margin:0 auto;">
-<button onclick="onClick()">Price Estimation</button>
+	<button onclick="onClick()">Price Estimation</button>
 </div>
 
 <p id="demo"></p>
 
 <script src="index.js" type="text/javascript"></script>
 <div style="width:800px; margin:0 auto;">
-<div style="width:800px; margin:0 auto;">
-<h2>My Findings</h2>
-</div>
-<div style="width:800px; margin:0 auto;">
-<p> <b>Neighbourhood vs. Average Rating:</b></p>
-<img src="popNeighborhoods.png" width="750" height="400">
-<p> With an average overall rating of 9.706, Diamond Heights is the neighborhood with the highest average reviews.
-</p>
+	<div style="width:800px; margin:0 auto;">
+		<h2>My Findings</h2>
+	</div>
+
+	<div style="width:800px; margin:0 auto;">
+		<p> <b>Neighbourhood vs. Average Rating:</b></p>
+		<img src="popNeighborhoods.png" width="750" height="400">
+		<p> With an average overall rating of 9.706, Diamond Heights is the neighborhood with the highest average reviews.
+		</p>
+	</div>
+
+	<div>
+		<p> <b>Neighbourhood vs. Price:</b></p>
+		<img src="expNeighborhoods.png" width="750" height="400">
+		<p>The wealthier parts of San Francisco tended to have higher rates for their listings, as to be expected.
+		</p>
+	</div>
+
+	<p> <b>Number of Reviews vs. Price: </b></p>
+		<img src="reviewsVprice.png" width="750" height="400">
+	<p>
+		This graph is surprising. There appears to be no correlation between the number of reviews a listing gets and its price. 
+	</p>
 </div>
 
-<div>
-<p> <b>Neighbourhood vs. Price:</b></p>
-<img src="expNeighborhoods.png" width="750" height="400">
-<p>The wealthier parts of San Francisco tended to have higher rates for their listings, as to be expected.
-</p>
-</div>
-<p> <b>Number of Reviews vs. Price: </b></p>
-<img src="reviewsVprice.png" width="750" height="400">
-<p>
-This graph is surprising. There appears to be no correlation between the number of reviews a listing gets and
-its price. 
-</p>
-</div>
-
 <div style="width:800px; margin:0 auto;">
-<p>
-<b>Rating vs. Price: </b>
-</p>
-<img src="ratingVprice.png" width="500" height="275">
-<p>
-The most expensive listings were given average ratings. It appears that when people are charged higher rates, they
-become more critical.
-</p>
+	<p>
+		<b>Rating vs. Price: </b>
+	</p>
+	<img src="ratingVprice.png" width="500" height="275">
+	<p>
+	The most expensive listings were given average ratings. It appears that when people are charged higher rates, they become more critical.
+	</p>
 </div>
 </div>
 </body>

@@ -3,8 +3,8 @@ var vals = [];
 
 /* These functions pull JSONs that I created in R with the relevant data */
 function onClick() {
-    var left = prompt("Please enter your latitude:", "37");
-    var right = prompt("Please enter your longitude:", "-122");
+    var left = prompt("Please enter your latitude coordinate:", "37");
+    var right = prompt("Please enter your longitude coordinate:", "-122");
     vals[0] = left;
     vals[1] = right;
     console.log(vals);
