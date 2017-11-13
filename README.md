@@ -14,7 +14,5 @@ I created several spreadsheets that were subsets of this data that proved useful
 
 	4. Daily Price/Weekly Price - These spreadsheets contained the daily and weekly averages of listings in each particular neighbourhood.
 
-My algorithm for price estimation was fairly simple. I prompted the user for a geolocation and using my geolocation spreadsheet, determine the nearest neighborhood. Then, I would look up this neighbourhood in my weekly price spreadsheet.
-
 I came into this project with no experience in HTML/JavaScript/R. Coming out of the project, I definitely learned a lot and am incredibly thankful for this opportunity.
 
